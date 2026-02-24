@@ -7,7 +7,7 @@ def load_date():
         with open('finance.json', 'r', encoding = 'utf-8-sig') as f:
             return json.load(f)
     else:
-        return {'balance': 0, 'income': {}, 'transactions': [], 'savings': [], 'recurring': []}
+        return {'balance': 0, 'income': [], 'transactions': [], 'savings': [], 'recurring': []}
 def save_data(balance,income,transactions,savings,recurring):
     data = {
         'balance': balance,
