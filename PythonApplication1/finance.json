@@ -1,0 +1,99 @@
+{
+    "balance": 4800,
+    "income": [
+        {
+            "name": "Чаевые",
+            "amount": 1000,
+            "date": "2026-02-26"
+        },
+        {
+            "name": "Кешбек",
+            "amount": 300,
+            "date": "2026-02-26"
+        },
+        {
+            "name": "Подработка",
+            "amount": 5000,
+            "date": "2026-02-26"
+        },
+        {
+            "name": "Кешбек",
+            "amount": 5000,
+            "date": "2026-02-26"
+        },
+        {
+            "name": "Чай",
+            "amount": 5000,
+            "date": "2026-02-26"
+        }
+    ],
+    "transactions": [
+        {
+            "amount": 4000,
+            "category": "Ресторан",
+            "date": "2026-02-26"
+        },
+        {
+            "amount": 500,
+            "category": "Кофе",
+            "date": "2026-02-26"
+        },
+        {
+            "amount": 2000,
+            "category": "Запчасти на машину",
+            "date": "2026-02-26"
+        },
+        {
+            "amount": 5000,
+            "category": "Продукты",
+            "date": "2026-02-26"
+        }
+    ],
+    "savings": [
+        {
+            "amount": 500,
+            "date": "2026-02-26"
+        },
+        {
+            "amount": 4000,
+            "date": "2026-02-26"
+        },
+        {
+            "amount": 300,
+            "date": "2026-02-26"
+        },
+        {
+            "amount": 300,
+            "date": "2026-02-26"
+        }
+    ],
+    "recurring": [
+        {
+            "id": 1,
+            "type": "income",
+            "name": "Зарплата",
+            "amount": 35000,
+            "day": 5,
+            "last_processed": null,
+            "auto_apply": true
+        },
+        {
+            "id": 2,
+            "type": "income",
+            "name": "Аванс",
+            "amount": 30000,
+            "day": 20,
+            "last_processed": null,
+            "auto_apply": true
+        },
+        {
+            "id": 3,
+            "type": "income",
+            "name": "Комуналка",
+            "amount": 9000,
+            "day": 15,
+            "last_processed": null,
+            "auto_apply": true
+        }
+    ]
+}
